@@ -2,6 +2,12 @@ import React from "react";
 import Contato from "./Contato";
 import Slider from "react-slick";
 import { TypeAnimation } from "react-type-animation";
+import img1 from "../assets/1.jpeg";
+import img2 from "../assets/2.jpeg";
+import img3 from "../assets/3.jpeg";
+import img4 from "../assets/4.jpeg";
+import img5 from "../assets/5.jpeg";
+import img6 from "../assets/6.jpeg";
 
 const Hero = () => {
   const [slidesToShow, setSlidesToShow] = React.useState(3);
@@ -79,7 +85,7 @@ const Hero = () => {
               <h3 className="text-center">
                 <img
                   className="sm:h-[300px] sm:w-[300px] h-[200px] w-[250px] rounded-md shadow-md shadow-orange-300"
-                  src="../src/assets/5.jpeg"
+                  src={img1}
                   alt="Casa 5"
                 />
               </h3>
@@ -88,7 +94,7 @@ const Hero = () => {
               <h3 className="text-center">
                 <img
                   className="sm:h-[300px] sm:w-[300px] h-[200px] w-[250px] rounded-md shadow-md shadow-orange-300"
-                  src="../src/assets/2.jpeg"
+                  src={img2}
                   alt="Casa 2"
                 />
               </h3>
@@ -97,7 +103,7 @@ const Hero = () => {
               <h3 className="text-center">
                 <img
                   className="sm:h-[300px] sm:w-[300px] h-[200px] w-[250px] rounded-md shadow-md shadow-orange-300"
-                  src="../src/assets/3.jpeg"
+                  src={img3}
                   alt="Casa 3"
                 />
               </h3>
@@ -106,7 +112,7 @@ const Hero = () => {
               <h3 className="text-center">
                 <img
                   className="sm:h-[300px] sm:w-[300px] h-[200px] w-[250px] rounded-md shadow-md shadow-orange-300"
-                  src="../src/assets/1.jpeg"
+                  src={img4}
                   alt="Casa 1"
                 />
               </h3>
@@ -115,7 +121,7 @@ const Hero = () => {
               <h3 className="text-center">
                 <img
                   className="sm:h-[300px] sm:w-[300px] h-[200px] w-[250px] rounded-md shadow-md shadow-orange-300"
-                  src="../src/assets/4.jpeg"
+                  src={img5}
                   alt="Casa 6"
                 />
               </h3>
@@ -124,7 +130,7 @@ const Hero = () => {
               <h3 className="text-center">
                 <img
                   className="sm:h-[300px] sm:w-[300px] h-[200px] w-[250px] rounded-md shadow-md shadow-orange-300"
-                  src="../src/assets/6.jpeg"
+                  src={img6}
                   alt="Casa 4"
                 />
               </h3>
