@@ -77,12 +77,14 @@ const Contato = () => {
           type="text"
           placeholder="Nome"
           name="name"
+          required
         />
         <input
           className="my-4 p-2 bg-[#ccd6f6] rounded-lg outline-none"
           type="email"
           placeholder="Email"
           name="email"
+          required
         />
         <textarea
           className="bg-[#ccd6f6] p-2 rounded-lg outline-none"
