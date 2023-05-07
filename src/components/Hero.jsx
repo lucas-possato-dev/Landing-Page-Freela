@@ -42,10 +42,10 @@ const Hero = () => {
 
   return (
     <>
-      <section className="w-full sm:h-[100vh] h-[165vh]  sm:mb-0 bg-black relative bg-opacity-50 p-4">
+      <section className="w-full sm:mb-0 bg-black relative bg-opacity-50 p-4">
         <div className="max-w-[1200px] mx-auto justify-between flex flex-col sm:flex-row items-center h-full">
           <div className="w-full sm:w-1/2 sm:mb-32 anime">
-            <h1 className="text-orange-300 text-7xl mb-2 font-bold uppercase">
+            <h1 className="text-orange-300 text-7xl mb-2 font-bold uppercase mt-12">
               A sua casa
             </h1>
             <TypeAnimation
@@ -72,14 +72,14 @@ const Hero = () => {
           </div>
         </div>
       </section>
-      <section className="bg-slate-800 absolute sm:h-[65vh] h-[75vh] mb-12 w-full flex flex-col">
+      <section className="bg-slate-800 absolute mb-12 w-full flex flex-col">
         <h1 className="text-3xl text-white text-center mt-12 mb-24">
           Subsídio de até R$ 47.500,00 através do Programa{" "}
           <span className="italic font-light text-orange-200">
             Minha Casa, Minha Vida.
           </span>
         </h1>
-        <div className="w-8/12 mx-auto p-4">
+        <div className="w-8/12 mx-auto p-4 mb-24">
           <Slider {...settings}>
             <div>
               <h3 className="text-center">

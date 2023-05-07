@@ -32,7 +32,7 @@ body::before {
 }
 
 .anime {
-  animation: slowShow 0.4s;
+  animation: slowShow 0.8s;
 }
 
 @keyframes slowShow {
